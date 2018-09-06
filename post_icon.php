@@ -117,7 +117,7 @@ function add_icon_title($title) {
     	echo "console.log('/////////////////////////////////////////////');";
     echo "</script>";
 
-	return "Filter is working ". $title;
+	return $title;
 }
 
 if($status_plugin == 1) {
